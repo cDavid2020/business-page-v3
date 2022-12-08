@@ -2,42 +2,24 @@ header, footer {
     background-color: #23e3f4;
 }
 
-main-flex {
-    background-color: #dc7f23;
-}
 
 img {
     max-width: 100%;
     height: auto;
 }
 
+/* only use 1 header tag, if you need to edit headers make it a class. you can use a header div and an only header tag */
 header div {
     gap: 1rem;
+}
+
+header {
+    padding: 2rem;
 }
 
 li {
     list-style: none;
 }
-
-.li-link-margin {
-    margin: 3rem;
-}
-
-.logo-link-margin {
-    margin-left: auto;
-}
-
-/* 0 top bottom 14 left right rem padding */
-.header-padding-blue {
-    padding: 0 12rem 0 16rem;
-}
-
-/* this aligns home live chat and the logo vertically */
-.home-live-logo {
-    align-items: center;
-}
-
-
 
 h1 {
     font-size: 2.4em;
@@ -52,15 +34,38 @@ h2 {
     margin: 0;
 }
 
-.top-links-area {
-    margin: 0;
-    padding: 1rem;
-}
-
 ul {
     margin: 0;
     padding: 0;
     text-decoration: none;
+
+    main-flex {
+        background-color: #dc7f23;
+    }
+
+    /* this aligns home live chat and the logo vertically */
+    .home-live-logo {
+        align-items: center;
+    }
+
+    .top-links-area {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .li-link-margin {
+        margin: 3rem;
+    }
+
+    .logo-link-margin {
+        margin-left: auto;
+    }
+
+    /* 0 top bottom 14 left right rem padding */
+    .header-padding-blue {
+        padding: 0 12rem 0 16rem;
+    }
+
 }
 
 .main {
