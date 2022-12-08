@@ -23,6 +23,22 @@ li {
     margin: 3rem;
 }
 
+.logo-link-margin {
+    margin-left: auto;
+}
+
+/* 0 top bottom 14 left right rem padding */
+.header-padding-blue {
+    padding: 0 12rem 0 16rem;
+}
+
+/* this aligns home live chat and the logo vertically */
+.home-live-logo {
+    align-items: center;
+}
+
+
+
 h1 {
     font-size: 2.4em;
     font-weight: 900;
@@ -60,3 +76,5 @@ ul {
     display: flex;
     flex-direction: row;
 }
+
+/* whenever something is greyed out, in inspect vie the greyed out area is the element as well */
