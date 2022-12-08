@@ -1,20 +1,17 @@
-/* /////////////////////👇 BEGIN TAG SELECTORS */
+header, footer {
+    background-color: #23e3f4;
+}
 
-header,
-main,
-footer {
-    background-color: dc7f23;
+main-flex {
+    background-color: #dc7f23;
 }
 
 img {
-    /* Prevent images from spilling outside of the parent. */
     max-width: 100%;
     height: auto;
 }
 
-/* GENERAL CHILD SELECTOR: Select any/all descendants that are 'div' inside of 'header */
 header div {
-    /* For spacing, use rems. */
     gap: 1rem;
 }
 
@@ -23,163 +20,21 @@ li {
 }
 
 h1 {
-    /* For font-sizes use ems. */
-    font-size: 3.052rem;
-    font-weight: 700;
+    font-size: 2.4em;
+    font-weight: 900;
+    text-align: center;
 }
 
 h2 {
-    font-size: 2.441rem;
+    font-size: 1.2em;
+    font-weight: bold;
     margin: 0;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: bold;
-    background-color: goldenrod;
-    padding: 1rem;
-}
-
-nav a:hover {
-    background-color: darkgoldenrod;
-}
-
-main {
-    margin: 1rem 0;
-    padding: 1rem;
-    column-gap: 1.5rem;
-}
-
-main section {
-    background-color: aqua;
-    padding: 0 1rem;
-}
-
-/* What does this mean👇 why is the separete from img */
-main section:first-child {
-    min-width: 60%;
-}
-
-/* What does this mean👇 */
-
-main section:first-child img {
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 250px;
-    transition: opacity 0.5s ease-in-out;
-}
-
-main section:first-child img:hover {
-    opacity: 0;
-}
-
-/* What does the squiggly mean👇 */
-main section:first-child img:hover~p {
-    opacity: 1;
-}
-
-main section:first-child p:last-child {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    transition-delay: 0.2s;
-    z-index: 1;
-}
-
-main section:first-child .flex {
-    width: 250px;
-    height: 250px;
-}
-
-main section:last-child {
-    display: grid;
-
-    grid-template-areas:
-        "header header"
-        "img-1 img-2"
-        "img-3 img-4";
-}
-
-main section:last-child h2 {
-    grid-area: header;
-}
-
-main section:last-child img:first-child {
-    grid-area: img-1;
-}
-
-main section:last-child img:nth-child(2) {
-    grid-area: img-2;
-}
-
-main section:last-child img:nth-child(3) {
-    grid-area: img-3;
-}
-
-main section:last-child img:last-child {
-    grid-area: img-4;
-}
-
-footer {
-    padding: 1rem 0.5rem;
-}
-
-form {
-    gap: 0.5rem;
-}
-
-label:not([for="newsletter"]):not([for="heard"]) {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
-
-input, textarea {
-    border-radius: 4px;
-    padding-left: 4px;
-}
-
-button {
-    background-color: blanchedalmond;
-    border-radius: 4px;
-    align-self: center;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    max-width: max-content;
-}
-
-/* ///////////////////// BEGIN CLASS SELECTORS👇*/
-
-
-.absolute {
-    position: absolute;
-}
-
-.flex {
+.main {
     display: flex;
-}
-
-.flex--col {
     flex-direction: column;
-}
-
-.flex--content-center {
-    justify-content: center;
-}
-
-.flex--items-center {
-    align-items: center;
-}
-
-.relative {
-    position: relative;
+    align-items: left;
+    justify-content: left;
+    gap: 1rem;
 }
