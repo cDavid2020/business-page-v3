@@ -2,16 +2,12 @@ header, footer {
     background-color: #23e3f4;
 }
 
-/* Tutor recommended adding flex to main area  */
+/* recommended adding flex to main area  */
 /* main-flex {
     background-color: ;
 } */
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
+/* in index.html */
 header {
     display: flex;
     flex-direction: column;
@@ -25,14 +21,24 @@ header div {
     gap: 1rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
 ul {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-li {
-    list-style: none;
+.li-main {
+    margin: 1rem;
+
 }
 
 h1 {
@@ -49,52 +55,79 @@ h2 {
     margin: 0;
 }
 
+/* in index.html */
 footer {
-    padding: 1rem 7rem 1rem 7rem;
+    padding: .5rem 7rem .5rem 7rem;
 }
 
+/* in index.html */
 /* 0 top bottom 14 left right rem padding */
 .header-padding-blue {
     padding: 0 12rem 0 16rem;
 
 }
 
+/* in index.html */
 .li-link-margin {
     margin: 3rem;
     align-text: center;
+    padding: 3rem;
 }
 
+.li-link-margin:hover {
+    background-color: black;
+}
+
+/* in index.html */
 .logo-link-margin {
     margin-left: auto;
 }
 
-/* this aligns home live chat and the logo vertically */
-.home-live-logo {
-    align-items: center;
-    margin: 0;
-}
-
-.top-links-area {
-    margin: 0;
-    padding: 0;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    gap: 1rem;
-    background-color: rgb(220, 127, 35, 0.8);
-    padding: 7rem;
-}
-
+/* in index.html */
 /* only for top links area */
 .flex-row {
     display: flex;
     flex-direction: row;
 }
 
-.imgHover:hover {
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* in index.html */
+/* this aligns home live chat and the logo vertically */
+.home-live-logo {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* .top-links-area {
+    margin: 0;
+    padding: 0;
+} */
+
+/* in index.html */
+.main {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 1rem;
+    background-color: rgb(220, 127, 35, 0.8);
+    padding: 7rem;
+    border: 4mm ridge rgba(255, 255, 255, 0.9);
+}
+
+/* in index.html */
+.img-hover-tech:hover {
     width: 14%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.third-width {
+    width: 33%;
 }
