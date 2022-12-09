@@ -2,9 +2,10 @@ header, footer {
     background-color: #23e3f4;
 }
 
-main-flex {
-    background-color: #dc7f23;
-}
+/* Tutor recommended adding flex to main area  */
+/* main-flex {
+    background-color: ;
+} */
 
 img {
     max-width: 100%;
@@ -15,29 +16,15 @@ header div {
     gap: 1rem;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 li {
     list-style: none;
 }
-
-.li-link-margin {
-    margin: 3rem;
-}
-
-.logo-link-margin {
-    margin-left: auto;
-}
-
-/* 0 top bottom 14 left right rem padding */
-.header-padding-blue {
-    padding: 0 12rem 0 16rem;
-}
-
-/* this aligns home live chat and the logo vertically */
-.home-live-logo {
-    align-items: center;
-}
-
-
 
 h1 {
     font-size: 2.4em;
@@ -52,15 +39,30 @@ h2 {
     margin: 0;
 }
 
+/* 0 top bottom 14 left right rem padding */
+.header-padding-blue {
+    padding: 0 12rem 0 16rem;
+}
+
+.li-link-margin {
+    margin: 3rem;
+}
+
+.logo-link-margin {
+    margin-left: auto;
+}
+
+
+
+/* this aligns home live chat and the logo vertically */
+.home-live-logo {
+    align-items: center;
+
+}
+
 .top-links-area {
     margin: 0;
     padding: 1rem;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
 }
 
 .main {
@@ -69,6 +71,7 @@ ul {
     align-items: left;
     justify-content: left;
     gap: 1rem;
+    background-color: rgb(220, 127, 35, 0.8);
 }
 
 /* only for top links area */
@@ -76,6 +79,6 @@ ul {
     display: flex;
     flex-direction: row;
 }
-}
+
 
 /* whenever something is greyed out, in inspect vie the greyed out area is the element as well */
