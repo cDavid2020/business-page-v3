@@ -9,11 +9,11 @@ header, footer {
 
 /* in index.html */
 header {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 1rem;
+    justify-content: center;
     padding: 1rem;
 }
 
@@ -22,8 +22,8 @@ header div {
 }
 
 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
 li {
@@ -44,9 +44,9 @@ ul {
 h1 {
     font-size: 2.4em;
     font-weight: 900;
-    text-align: center;
     margin: 0;
     padding: .7rem;
+    text-align: center;
 }
 
 h2 {
@@ -69,8 +69,8 @@ footer {
 
 /* in index.html */
 .li-link-margin {
-    margin: 3rem;
     align-text: center;
+    margin: 3rem;
     padding: 3rem;
 }
 
@@ -110,13 +110,13 @@ footer {
 
 /* in index.html */
 .main {
-    display: flex;
     align-items: left;
-    justify-content: left;
-    gap: 1rem;
     background-color: rgb(220, 127, 35, 0.8);
-    padding: 7rem;
     border: 4mm ridge rgba(255, 255, 255, 0.9);
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    padding: 7rem;
 }
 
 /* in index.html */
