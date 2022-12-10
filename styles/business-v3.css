@@ -3,11 +3,7 @@ header, footer {
 }
 
 /* recommended adding flex to main area  */
-/* main-flex {
-    background-color: ;
-} */
 
-/* in index.html */
 header {
     align-items: center;
     display: flex;
@@ -55,23 +51,21 @@ h2 {
     margin: 0;
 }
 
-/* in index.html */
 footer {
     padding: .5rem 7rem .5rem 7rem;
 }
 
-/* in index.html */
-/* 0 top bottom 14 left right rem padding */
+/* 0 top & bottom, 14 left right rem padding */
 .header-padding-blue {
     padding: 0 12rem 0 16rem;
 
 }
 
-/* in index.html */
 .li-link-margin {
     align-text: center;
     margin: 3rem;
     padding: 3rem;
+
 }
 
 .li-link-margin:hover {
@@ -83,7 +77,6 @@ footer {
     margin-left: auto;
 }
 
-/* in index.html */
 /* only for top links area */
 .flex-row {
     display: flex;
@@ -95,7 +88,6 @@ footer {
     flex-direction: column;
 }
 
-/* in index.html */
 /* this aligns home live chat and the logo vertically */
 .home-live-logo {
     align-items: center;
@@ -103,12 +95,10 @@ footer {
     margin: 0;
 }
 
-/* .top-links-area {
-    margin: 0;
-    padding: 0;
-} */
+.home-live-chat {
+    text-decoration: none;
+}
 
-/* in index.html */
 .main {
     align-items: left;
     background-color: rgb(220, 127, 35, 0.8);
@@ -119,7 +109,6 @@ footer {
     padding: 7rem;
 }
 
-/* in index.html */
 .img-hover-tech:hover {
     width: 14%;
 }
