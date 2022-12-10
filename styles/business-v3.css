@@ -61,20 +61,16 @@ footer {
 }
 
 .li-link-margin {
-    align-text: center;
-    margin: 3rem;
-    padding: 3rem;
-
-
-
-
-
-
-
+    text-align: center;
+    margin: .8rem;
+    padding: .8rem;
+    font-weight: 900;
+    color: black;
+    border-radius: 16px;
 }
 
-.li-link-margin:hover {
-    background-color: black;
+.hover-animation:hover {
+    background-color: #F3BB26;
 }
 
 /* in index.html */
@@ -98,6 +94,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 0;
+
 }
 
 .home-live-chat {
@@ -105,6 +102,7 @@ footer {
     text-align: center;
     text-justify: center;
 }
+
 
 .main {
     align-items: left;
