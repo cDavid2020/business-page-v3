@@ -11,19 +11,17 @@
 </head>
 
 <body>
-
-    <header class="header">
+    <header class="flex header">
         <!-- this is the parent for home live chat and the sun, use align-items -->
-        <!--  -->
 
         <nav class="full-width">
-            <ul>
-                <div class="flex-row">
-                    <div class="third-width">
+            <div class="flex-row">
+                <div class="third-width">
 
-                    </div>
+                </div>
 
-                    <div class="flex-row home-live-logo third-width">
+                <div class="flex-row home-live-logo third-width">
+                    <ul>
                         <li class="li-link-margin hover-animation"><a class=" home-live-chat"
                                 href=".other-pages/about.html">Home</a>
                         </li>
@@ -31,15 +29,15 @@
                         <li class="li-link-margin hover-animation"><a class="home-live-chat"
                                 href=".other-pages/live-chat.html">Live
                                 Chat</a></li>
-                    </div>
-
-                    <div class="third-width">
-                        <img class="li-link-margin logo-link-margin" src="/images/hvac1.jpg"
-                            alt="Cartoon sun HVAC technician" height="140" width="250" />
-                    </div>
-                    <!-- you can add multiple classes into an element like such -->
+                    </ul>
                 </div>
-            </ul>
+
+                <div class="third-width">
+                    <img class="li-link-margin logo-link-margin" src="/images/hvac1.jpg"
+                        alt="Cartoon sun HVAC technician" height="140" width="250" />
+                </div>
+                <!-- you can add multiple classes into an element -->
+            </div>
         </nav>
 
     </header>
@@ -88,10 +86,8 @@
                     a <strong>2 year warranty</strong> on all installs and repairs.</li>
             </ul>
 
-            <img class="img-hover-tech" src="./images/hvac2.jpg" alt=" HVAC technician working" height="220"
-                width="170" />
+
         </div>
-        <!-- form👇 -->
 
         <div class="flex-column">
             <img src="./images/winter.jpg" alt="person without heating" height="180" width="290" />
@@ -110,13 +106,32 @@
                 delectus
                 in eligendi.</p>
 
-            <!-- 👆form -->
+            <section>
+                <!-- form -->
+                <div>
+                    <input type="text" id="name" placeholder="Your name">
+                </div>
+
+                <div>
+                    <input type="tel" id="phone-number" placeholder="Your phone number">
+                </div>
+
+                <div>
+                    <textarea id="text" placeholder="Address"></textarea>
+                </div>
+
+                <button onclick="myFunction()" class="button">Submit</button>
+                <div id="dropdownItems" class="dropdown-content">
+
+                </div>
+            </section>
+            <img class="img-hover-tech" src="./images/hvac2.jpg" alt=" HVAC technician working" height="220"
+                width="170" />
 
         </div>
     </main>
 
     <footer class="footer">
-        <!-- <footer class="squeeze-footer"> -->
         <!-- <footer> typically contains information about the author of the section, copyright data or links to related documents. -->
         <h3><u>Contact Details</u></h3>
         <p>
@@ -127,7 +142,7 @@
             53023 Sunnyside Way<br />
             Memphis, TN 37501<br />
         </address>
-        </p>
+
         <small>&copy;
             Sunshine HVAC Company</small>
         <p>
@@ -137,6 +152,5 @@
     </footer>
 
 </body>
-
 
 </html>
