@@ -46,7 +46,7 @@
 
     <!-- css class will always be flex columns -->
     <main class="main flex-row">
-        <div class="flex-column-left">
+        <div class="flex-column-left section-1">
             <!-- once content form is created use justify-content on flex-column & align items on each flex-column div so form is centered and content is centered -->
             <h1><em>Fast HVAC Repairs</em></h1>
             <p>
@@ -91,8 +91,11 @@
 
         </div>
 
-        <div class="flex-column-right">
-            <img src="./images/winter.jpg" alt="person without heating" height="180" width="290" />
+
+
+        <div class="flex-column-right section-2">
+            <img class="margin-center" src="./images/winter.jpg" alt="person without heating" height="180"
+                width="290" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquid reiciendis inventore maiores,
                 obcaecati fugiat sed molestias soluta eum similique labore sit aspernatur ipsa ipsam officiis nulla
                 delectus
@@ -125,48 +128,35 @@
             </section>
 
 
-            <button class="onclick=" myFunction()" class="button">Submit</button>
-            <style>
-                .bg-teal {
-                    background: teal;
-                    color: white;
-                }
-
-                .bg-rose {
-                    background-color: orangered;
-                }
-            </style>
-
-            <button class="bg-teal" onmouseenter="enter(this);" onmouseleave="leave(this);">Clickable
-                Button</button>
-
-            <footer class="footer">
-                <!-- <footer> typically contains information about the author of the section, copyright data or links to related documents. -->
-                <h3><u>Contact Details</u></h3>
-                <p>
-                    <strong>Call:</strong>&nbsp;<a class="home-live-chat" href="tel:5816724957">(581)&nbsp;672-4957</a>
-                    <strong>Email:</strong>&nbsp;<a href="mailto:request@sunshinehvac.com">request@sunshinehvac.com</a>
-                </p>
-                <address>
-                    53023 Sunnyside Way<br />
-                    Memphis, TN 37501<br />
-                </address>
-
-                <small>&copy;
-                    Sunshine HVAC Company</small>
-                <p>
-                    <small><a href=".other-pages/code-chef.html">Website created by &copy;CodeChef</a></small>
-                </p>
+            <button class="button" onclick=" myFunction()">Submit</button>
 
 
-                <!-- <script>
-                        let enter = button => button.classList.toggle("bg-rose");
-                        let leave = button => button.classList.toggle("bg-rose");
-                    </script> -->
-
-            </footer>
     </main>
+    <footer class="footer">
+        <!-- <footer> typically contains information about the author of the section, copyright data or links to related documents. -->
+        <h3><u>Contact Details</u></h3>
+        <p>
+            <strong>Call:</strong>&nbsp;<a class="home-live-chat" href="tel:5816724957">(581)&nbsp;672-4957</a>
+            <strong>Email:</strong>&nbsp;<a href="mailto:request@sunshinehvac.com">request@sunshinehvac.com</a>
+        </p>
+        <address>
+            53023 Sunnyside Way<br />
+            Memphis, TN 37501<br />
+        </address>
 
+        <small>&copy;
+            Sunshine HVAC Company</small>
+        <p>
+            <small><a href=".other-pages/code-chef.html">Website created by &copy;CodeChef</a></small>
+        </p>
+
+
+        <!-- <script>
+                let enter = button => button.classList.toggle("bg-rose");
+                let leave = button => button.classList.toggle("bg-rose");
+            </script> -->
+
+    </footer>
 </body>
 
 </html>

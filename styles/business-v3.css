@@ -1,3 +1,8 @@
+html {
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+}
+
 header, footer {
     background-color: #23e3f4;
 }
@@ -32,7 +37,7 @@ ul {
 }
 
 .li-main {
-    margin: 1rem;
+    margin: .7rem;
 
 }
 
@@ -50,8 +55,9 @@ h2 {
     margin: 0;
 }
 
+
 footer {
-    padding: .5rem 7rem .5rem 7rem;
+    padding: .5rem 3rem .5rem 3rem;
     margin: 1rem;
 }
 
@@ -60,6 +66,10 @@ footer {
     padding: 0 12rem 0 16rem;
     margin: 1rem;
 
+}
+
+.margin-center {
+    margin: 0 auto;
 }
 
 .li-link-margin {
@@ -88,14 +98,12 @@ footer {
 .flex-column-left {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
-    max-height:50%;
+
 }
 
 .flex-column-right {
     display: flex;
     flex-direction: column;
-    max-width 40%;
 }
 
 /* this aligns home live chat and the logo vertically */
@@ -120,7 +128,7 @@ footer {
     display: flex;
     gap: 1rem;
     justify-content: left;
-    padding: 7rem;
+    padding: 3rem;
     margin: 1rem;
 }
 
@@ -153,3 +161,42 @@ moz-box-shadow: 17px 8px 12px -2px rgba(0,0,0,0.51);
 .third-width {
     width: 33%;
 }
+
+.button {
+    /* rounded button radius */
+    border-radius: 10px;
+
+    background-color:#F3BB26;
+    outline: 1px solid #000;
+    
+    display:flex;
+	justify-content: center;
+	align-items: center;
+    width: 10%;
+
+    margin: .8rem;
+    padding: .8rem;
+    font-weight: 900;
+    border-radius: 16px;
+
+
+
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    background-color: purple;
+  }
+  
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin: .7rem;
+  }
+
+
+
+  /* justify-content: center; justifies based on if its a col or row */
