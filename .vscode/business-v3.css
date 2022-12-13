@@ -85,17 +85,9 @@ footer {
     flex-direction: row;
 }
 
-.flex-column-left {
+.flex-column {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
-    max-height:50%;
-}
-
-.flex-column-right {
-    display: flex;
-    flex-direction: column;
-    max-width 40%;
 }
 
 /* this aligns home live chat and the logo vertically */
@@ -136,6 +128,8 @@ footer {
   }
 
 
+}
+
 .img-hover-tech:hover {
     width: 14%;
 }
@@ -153,3 +147,18 @@ moz-box-shadow: 17px 8px 12px -2px rgba(0,0,0,0.51);
 .third-width {
     width: 33%;
 }
+
+.button {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    background-color:#F3BB26;
+    outline: 1px solid #000;
+    margin: 1rem;
+    /* center text within button along the x and y axis */
+    display:flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+
