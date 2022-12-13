@@ -4,7 +4,7 @@ html {
 }
 
 header, footer {
-    background-color: #23e3f4;
+    background-color: #A3E7FF;
 }
 
 header {
@@ -27,7 +27,7 @@ img {
 
 li {
     list-style: none;
-    background-color: #E3994E
+    background-color: #E7FFA3
 }
 
 ul {
@@ -123,7 +123,7 @@ footer {
 
 .main {
     align-items: left;
-    background-color: rgb(220, 127, 35, 0.8);
+    background-color: #FFA3E7;
     border: 4mm ridge rgba(255, 255, 255, 0.9);
     display: flex;
     gap: 1rem;
@@ -187,7 +187,7 @@ moz-box-shadow: 17px 8px 12px -2px rgba(0,0,0,0.51);
     display: flex;
     flex-direction: column;
     max-width: 60%;
-    background-color: purple;
+    background-color: #E7FFA3;
   }
   
   .section-2 {
@@ -195,6 +195,7 @@ moz-box-shadow: 17px 8px 12px -2px rgba(0,0,0,0.51);
     flex-direction: column;
     max-width: 40%;
     margin: .7rem;
+    background-color: #E7FFA3;
   }
 
 
