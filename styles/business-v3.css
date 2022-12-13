@@ -188,13 +188,14 @@ moz-box-shadow: 17px 8px 12px -2px rgba(0,0,0,0.51);
     flex-direction: column;
     max-width: 60%;
     background-color: #E7FFA3;
+    padding: 2rem;
   }
   
   .section-2 {
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    margin: .7rem;
+    padding: 2rem;
     background-color: #E7FFA3;
   }
 
