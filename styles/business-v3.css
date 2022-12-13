@@ -124,7 +124,6 @@ footer {
 .main {
     align-items: left;
     background-color: #FFA3E7;
-    border: 4mm ridge rgba(255, 255, 255, 0.9);
     display: flex;
     gap: 1rem;
     justify-content: left;
